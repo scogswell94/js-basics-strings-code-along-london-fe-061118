@@ -5,8 +5,10 @@ const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
 
-const currentUser = 'Edsger Dijkstra';
-
-const shortGreeting = 'Welcome, ';
+'Edsger Dijkstra'[0];
+//=> "E"
+ 
+'Edsger Dijkstra'.charAt(0);
+//=> "E"
 
 const shortGreeting = `Welcome, ${currentUser}`;
