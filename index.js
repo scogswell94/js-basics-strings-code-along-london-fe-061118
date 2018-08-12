@@ -31,5 +31,4 @@ const shortGreeting = `Welcome, ${currentUser}`;
 
 currentUser.slice(0, 1);
 
-const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
 
