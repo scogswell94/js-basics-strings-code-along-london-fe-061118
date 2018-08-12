@@ -7,5 +7,6 @@ const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
 const currentUser = 'Edsger Dijkstra';
 
+const shortGreeting = 'Welcome, ';
 
 const shortGreeting = `Welcome, ${currentUser}`;
